@@ -17,10 +17,11 @@ label {
 }
 
 input {
+  display: inline;
   font: inherit;
   border-radius: 4px;
   border: solid #2196f3;
-  width: 272px;
+  width: 200px;
   height: 40px;
   padding-left: 15px;
 }
@@ -70,4 +71,10 @@ button {
 
 button.is-active {
   background-color: #2196f3;
+}
+
+fieldset{
+  display: flex;
+  width: 360px;
+  margin-bottom: 10px;
 }
